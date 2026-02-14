@@ -1,10 +1,35 @@
-{
-    "profiles":{
-        "firstName" : "John",
-        "lastName" : "Doe",
-        "age" : 30,
-        "email" : "iamjohndoe",
-        "blocked" : false
-    }
-    
-}
+
+    [
+  {
+    "name": { "first": "Amina", "last": "Hassan" },
+    "profile": "https://randomuser.me/api/portraits/women/44.jpg",
+    "phone": [
+      { "type": "mobile", "number": "917-555-1023" },
+      { "type": "work", "number": "212-555-0199" }
+    ],
+    "email": [
+      { "type": "personal", "name": "amina.hassan@gmail.com" },
+      { "type": "school", "name": "ahassan@school.edu" }
+    ],
+    "social": [
+      { "type": "instagram", "name": "@amina.h" },
+      { "type": "snapchat", "name": "amina_snap" }
+    ],
+    "note": "Met at the student council meeting."
+  },
+  {
+    "name": { "first": "David", "last": "Park" },
+    "profile": "https://randomuser.me/api/portraits/men/12.jpg",
+    "phone": [
+      { "type": "mobile", "number": "646-555-7781" }
+    ],
+    "email": [
+      { "type": "personal", "name": "davidpark@gmail.com" }
+    ],
+    "social": [
+      { "type": "twitter", "name": "@dpark" }
+    ],
+    "note": "Works on coding projects with me."
+  }
+]
+
