@@ -1,35 +1,33 @@
 
     [
   {
-    "name": { "first": "Amina", "last": "Hassan" },
-    "profile": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": { "first": "Ana", "last": "Lopez" },
+    "profile": "x",
     "phone": [
-      { "type": "mobile", "number": "917-555-1023" },
-      { "type": "work", "number": "212-555-0199" }
+      { "type": "Mobile", "number": "917-555-1023" },
+      { "type": "Work", "number": "212-555-0199" }
     ],
     "email": [
-      { "type": "personal", "name": "amina.hassan@gmail.com" },
-      { "type": "school", "name": "ahassan@school.edu" }
+      { "type": "personal", "name": "amina.hassan@gmail.com" }
     ],
     "social": [
-      { "type": "instagram", "name": "@amina.h" },
-      { "type": "snapchat", "name": "amina_snap" }
-    ],
+      { "type": "instagram", "name": "@amina.h" }],
     "note": "Met at the student council meeting."
   },
   {
-    "name": { "first": "David", "last": "Park" },
-    "profile": "https://randomuser.me/api/portraits/men/12.jpg",
+    "name": { "first": "Abigail", "last": "Wear" },
+    "profile": "x",
     "phone": [
-      { "type": "mobile", "number": "646-555-7781" }
+      { "type": "Mobile", "number": "123-233-2331" },
+      { "type": "Work", "number": "239-321-5454" }
     ],
     "email": [
-      { "type": "personal", "name": "davidpark@gmail.com" }
+      { "type": "personal", "name": "abiwear@gmail.com" }
     ],
     "social": [
-      { "type": "twitter", "name": "@dpark" }
-    ],
-    "note": "Works on coding projects with me."
+      { "type": "instagram", "name": "@abigail.d" }],
+    "note": "Childhood friend"
   }
+
 ]
 

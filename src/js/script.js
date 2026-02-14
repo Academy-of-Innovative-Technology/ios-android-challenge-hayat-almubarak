@@ -15,22 +15,35 @@ async function loadContacts() {
   }
 }
 
-function renderContacts(data) {
+function renderContacts() {
   const ul = document.getElementById("myUL");
   ul.innerHTML = "";
 
-  data.forEach((person) => {
+  contacts.forEach((person, index) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
 
     a.href = "#";
     a.textContent = `${person.name.first} ${person.name.last}`;
+    a.addEventListener("click", () => {
+      showProfile(index);});
 
     li.appendChild(a);
     ul.appendChild(li);
   });
 }
 
+function showProfile(index) {
+  const person = contacts[index];
+  const phoneText = person.phone
+  .map((p)=> `${p.type}: ${p.number}`)
+  .join(" | ");
+
+  document.getElementById("profileName").textContent = person.name.first + "" + person.name.last;
+  document.getElementById("profileImg").src = person.profile;
+document.getElementById("profileNote").textContent = person.note;
+document.getElementById("profilePhone").textContent = phoneText;
+}
 // Search function (your version, just slightly cleaned)
 function myFunction() {
   const input = document.getElementById("myInput");
