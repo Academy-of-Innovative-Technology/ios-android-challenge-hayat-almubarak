@@ -8,15 +8,20 @@ body {
 }
 
 main{
-  background-image: url("");
-  max-width: 790px;
-  margin: 0 auto;
-  padding-top: 300px;
-  height: 650px;
-  display:flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
   gap: 40px;
-  overflow: auto; /* Show scrollbars */
-   
+  display: flex;
+
+}
+.phone-bg {
+  width: 100%;            /* adjust to your background image */          /* adjust */
+  background-image: url("/images/photos/main1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* keeps the full image visible */
+  position: relative;
 }
 
 .dropdown {
@@ -131,7 +136,9 @@ img{
 }
 
 .header2{
-  width: 100%;
-  float: right;
+  position: sticky;
+  top: 0;
+  background: white; /* important so it doesn’t look transparent */
+  z-index: 10;
 
 }
