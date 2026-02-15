@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iOS / Android Contacts</title>
-
+    
     <link href="src/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <main>
         <section class="header1">
-            <h2>Groups</h2>
+            <div class="dropdown">
+                <menu>Groups</menu>
+                <div class="dropdown-content">
+                    <a href="#">All Contacts</a>
+                    <a href="#">Family</a>
+                    <a href="#">Friends</a>
+                    <a href="#">Work</a>
+                </div>
             <h2>+</h2>
         </section>
 
@@ -21,19 +28,19 @@
 
         <div class="user-card">
             <div class="user-image">
-                <img id="profileImg" src="" alt="UserImage" />
+                <img id="profileImg" src="https://i.pinimg.com/1200x/53/20/24/53202488188d75b680fec7c25bc0b517.jpg" alt="UserImage" />
             </div>
             <div class="user-info">
-                <h3 id="profileName">Select a contact</h3>
+                <h3 id="profileName">Me</h3>
                 <p id="profilePhone"></p>
-                <p id="profileNote">Click a name to view details</p>
+                <p id="profileNote">My card</p>
             </div>
         </div>
 
         <section class="list">
             <ul id="myUL"></ul>
         </section>
-
+<img src="photos/bg.png" alt="iOS Logo" class="ios-logo">
     </main>
 	<script src="src/js/script.js"></script>
 </body>
