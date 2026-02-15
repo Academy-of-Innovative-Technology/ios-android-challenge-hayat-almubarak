@@ -27,7 +27,167 @@
     "social": [
       { "type": "instagram", "name": "@abigail.d" }],
     "note": "Childhood friend"
-  }
+  },
+{
+  "name": { "first": "Aya", "last": "Liaz" },
+  "profile": "https://randomuser.me/api/portraits/women/22.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "646-555-7781" },
+    { "type": "Home", "number": "718-555-8844" }
+  ],
+  "email": [
+    { "type": "personal", "name": "ana.lopez@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@ana.lopez" }
+  ],
+  "note": "Friend from class"
+},
+{
+  "name": { "first": "Bea", "last": "Martin" },
+  "profile": "https://randomuser.me/api/portraits/women/45.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "917-555-1023" }
+  ],
+  "email": [
+    { "type": "personal", "name": "bea.martin@gmail.com" }
+  ],
+  "social": [
+    { "type": "snapchat", "name": "bea_snap" }
+  ],
+  "note": "Cousin"
+},
+{
+  "name": { "first": "Bintu", "last": "Diallo" },
+  "profile": "https://randomuser.me/api/portraits/women/65.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "347-555-3109" },
+    { "type": "Work", "number": "212-555-4402" }
+  ],
+  "email": [
+    { "type": "personal", "name": "bintu.diallo@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@bintu.diallo" }
+  ],
+  "note": "Met at a summer program"
+},
+{
+  "name": { "first": "Carlos", "last": "Mendez" },
+  "profile": "https://randomuser.me/api/portraits/men/33.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "929-555-6620" }
+  ],
+  "email": [
+    { "type": "personal", "name": "carlos.mendez@gmail.com" }
+  ],
+  "social": [
+    { "type": "twitter", "name": "@carlosm" }
+  ],
+  "note": "Works on group projects with me"
+},
+{
+  "name": { "first": "Dalia", "last": "Hussein" },
+  "profile": "https://randomuser.me/api/portraits/women/18.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "516-555-9032" },
+    { "type": "Work", "number": "631-555-2208" }
+  ],
+  "email": [
+    { "type": "personal", "name": "dalia.hussein@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@dalia.hussein" }
+  ],
+  "note": "Arabic class friend"
+},
+{
+  "name": { "first": "David", "last": "Park" },
+  "profile": "https://randomuser.me/api/portraits/men/12.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "646-555-1180" }
+  ],
+  "email": [
+    { "type": "personal", "name": "david.park@gmail.com" }
+  ],
+  "social": [
+    { "type": "discord", "name": "davidpark#2041" }
+  ],
+  "note": "Coding partner"
+},
+{
+  "name": { "first": "Ethan", "last": "Brooks" },
+  "profile": "https://randomuser.me/api/portraits/men/44.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "718-555-7722" },
+    { "type": "Home", "number": "718-555-1109" }
+  ],
+  "email": [
+    { "type": "personal", "name": "ethan.brooks@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@ethanbrooks" }
+  ],
+  "note": "Basketball teammate"
+},
+{
+  "name": { "first": "Fatima", "last": "Ali" },
+  "profile": "https://randomuser.me/api/portraits/women/9.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "917-555-4419" }
+  ],
+  "email": [
+    { "type": "personal", "name": "fatima.ali@gmail.com" }
+  ],
+  "social": [
+    { "type": "tiktok", "name": "@fatima.ali" }
+  ],
+  "note": "Family friend"
+},
+{
+  "name": { "first": "Grace", "last": "Kim" },
+  "profile": "https://randomuser.me/api/portraits/women/52.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "347-555-8080" },
+    { "type": "Work", "number": "212-555-6777" }
+  ],
+  "email": [
+    { "type": "personal", "name": "grace.kim@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@gracekim" }
+  ],
+  "note": "Student council member"
+},
+{
+  "name": { "first": "Hassan", "last": "Omar" },
+  "profile": "https://randomuser.me/api/portraits/men/70.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "929-555-4901" }
+  ],
+  "email": [
+    { "type": "personal", "name": "hassan.omar@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@hassan.omar" }
+  ],
+  "note": "Neighbor"
+},
+{
+  "name": { "first": "Sayseo", "last": "Omar" },
+  "profile": "https://randomuser.me/api/portraits/men/70.jpg",
+  "phone": [
+    { "type": "Mobile", "number": "929-555-4901" }
+  ],
+  "email": [
+    { "type": "personal", "name": "hassan.omar@gmail.com" }
+  ],
+  "social": [
+    { "type": "instagram", "name": "@hassan.omar" }
+  ],
+  "note": "Neighbor"
+}
+
 
 ]
 

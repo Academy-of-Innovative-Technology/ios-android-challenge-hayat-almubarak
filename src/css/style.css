@@ -1,7 +1,23 @@
 body { 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-image: url("https://i.pinimg.com/736x/29/ed/f0/29edf08b22efa28cb62daf3a9edb5dd5.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover;
+
 }
 
+main{
+  background-image: url("");
+  max-width: 790px;
+  margin: 0 auto;
+  padding-top: 300px;
+  height: 650px;
+  display:flex;
+  gap: 40px;
+  overflow: auto; /* Show scrollbars */
+   
+}
 
 .dropdown {
   position: relative;
@@ -21,7 +37,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #c65252d3;
+  background-color: #c65252e5;
   min-width: 200px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(91, 4, 4, 0.49);
@@ -52,13 +68,14 @@ body {
 
 #myInput {
   width: 60%; /* Full-width */
-  background-color: rgb(240, 128, 128);
+  background-color: rgb(255, 255, 255);
   color: rgb(147, 21, 21);
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #922c2c;
+  border: 3px solid #af3a5b;
   border-radius: 20px; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
+  backdrop-filter:blur(2px);
 }
 
 #myUL {
@@ -85,15 +102,17 @@ body {
 }
 
 .header1{
-  display: flex;
-  justify-content: space-between;
+  background-color: white;;
+  border:#af3a5b;
+  border-radius: 20px;
+  padding-right: 50px;
+  height: 50%;
+
 }
 .header1 h2, menu{
   color:rgb(175, 7, 32);
 }
-.header2 h1{
-color: rgb(88, 12, 12);
-}
+
 
 img{
   border-radius: 80px;
@@ -103,10 +122,16 @@ img{
   display: flex;
   align-items: center;
   gap: 20px;
-  background-color: rgba(236, 92, 92, 0.551);
+  background-color: rgba(236, 92, 92, 0.836);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 8px 16px 0px rgba(209, 53, 53, 0.622);
   margin: 20px 0;
-  color:#922c2c;
+  color:#ffffff;
+}
+
+.header2{
+  width: 100%;
+  float: right;
+
 }
