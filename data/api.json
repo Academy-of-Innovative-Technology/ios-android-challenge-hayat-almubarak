@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "phone": "123-456-7890",
+    "category": "Family"
+  },
+  {
+    "id": 2,
+    "name": "Jeffrey Doe",
+    "phone": "123-456-7890",
+    "category": "Friends"
+  },
+  {
+    "id": 3,
+    "name": "Firefighters",
+    "phone": "123-456-7890",
+    "category": "Emergency Hotline"
+  }
+]
