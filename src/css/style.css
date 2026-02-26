@@ -80,7 +80,6 @@ main{
   border: 3px solid #af3a5b;
   border-radius: 20px; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
-  backdrop-filter:blur(2px);
 }
 
 #myUL {
@@ -141,4 +140,9 @@ img{
   background: white; /* important so it doesn’t look transparent */
   z-index: 10;
 
+}
+.rightside{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
